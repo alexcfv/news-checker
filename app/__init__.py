@@ -1,1 +1,1 @@
-from .entites.config import api_key, logging_level, start_message
+from .entites.config import api_key, logging_level, start_message, error_message
