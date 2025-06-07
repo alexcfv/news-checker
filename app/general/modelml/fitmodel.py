@@ -3,7 +3,7 @@ from spacy.lang.ru.stop_words import STOP_WORDS
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
-df = pd.read_csv(r"app/entites/fakenews_dataset/train.tsv", sep="	")
+df = pd.read_csv(r"app/entites/fakenews_dataset/dataset.tsv", sep="\t")
 
 X = df['title']
 y = df['is_fake']
