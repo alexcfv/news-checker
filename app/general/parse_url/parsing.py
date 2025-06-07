@@ -4,7 +4,7 @@ import ssl
 import certifi
 from bs4 import BeautifulSoup
 
-class_names = ['article-body', 'artocle-text', 'article__body', 'article__text']
+class_names = ['article-body', 'article-text', 'article__body', 'article__text']
 
 async def fetch_content(url):
     ssl_context = ssl.create_default_context(cafile=certifi.where())
