@@ -8,6 +8,8 @@
 
 ---
 
+### WORK ONLY FOR RUSSIAN LANG
+
 ## 📖 About the Project
 This project is a **Telegram bot** that classifies news headlines as **true** or **fake**.  
 The bot evaluates credibility **offline**, based entirely on historical data, without accessing the internet.
